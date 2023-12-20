@@ -1,0 +1,22 @@
+
+.container{
+    background-color: rgba(204, 204, 204, 0.74);
+    border-radius: 80px;
+    margin-top: 20px;
+}
+
+.menu{
+    list-style-type: none;
+    float: right;
+    padding-top: 12px;
+
+}
+
+.menu li{
+    float: left;
+    padding-left: 50px;
+}
+
+.menu li a{
+    color: black;
+}
