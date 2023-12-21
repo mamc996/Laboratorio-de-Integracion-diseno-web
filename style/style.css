@@ -1,6 +1,13 @@
 
-.container{
-    background-color: rgba(204, 204, 204, 0.74);
+body{
+    background-image: url(/imagen/Fonfo.png);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#encabezado{
+    background-color: rgba(247, 244, 244, 0.74);
     border-radius: 80px;
     margin-top: 20px;
 }
@@ -14,9 +21,90 @@
 
 .menu li{
     float: left;
-    padding-left: 50px;
+    padding-left: 40px;
+    margin: auto 20px;
 }
 
 .menu li a{
     color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.col img{
+    padding-left: 50px;
+}
+
+.texto{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.button{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button a {
+    color: #fff ;
+    text-decoration: none;
+    width: 50px;
+    background-color: #252222;
+    text-align: center;
+    padding: 10px 100px;    
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #853400;
+}
+
+.button a i{
+    padding: 10px;
+}
+
+footer{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+#pie-row .col{
+    text-align: center;
+}
+
+#pie-row .col ul{
+    padding-top: 25px;
+    list-style-type: none;
+} 
+
+#pie-row .col img{
+    padding-top: 20px;
+}
+
+#pie-row .col ul a{
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    color: black;
+    
+}
+
+#pie-row .col ul li{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 5px 0px;
+}
+
+
+#pie img{
+    width: 300px;
+}
+
+#pie-row i{
+    padding-right: 10px;
+  
+    
 }
