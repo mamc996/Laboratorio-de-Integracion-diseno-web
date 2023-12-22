@@ -32,6 +32,11 @@ body{
     font-family: 'JetBrains Mono', monospace;
 }
 
+.menu li a:hover{
+    color:#E07D22;
+    font-size: 17px;
+}
+
 .col img{
     padding-left: 50px;
 }
@@ -56,7 +61,14 @@ body{
     text-align: center;
     padding: 10px 100px;    
     border-radius: 5px;
+    box-shadow: 0px 1px 10px #E07D22;
+}
+
+.button a:hover{
+    color: black;
+    background-color: #C06500;
     box-shadow: 0px 5px 10px #853400;
+
 }
 
 .button a i{
@@ -89,6 +101,12 @@ footer{
     font-size: 20px;
     color: black;
     
+}
+
+#pie-row .col ul a:hover{
+    color:#E07D22;
+    font-size: 22px;
+
 }
 
 #pie-row .col ul li{
