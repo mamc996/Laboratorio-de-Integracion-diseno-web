@@ -32,5 +32,6 @@
         "TENER",
         "Tipo",
         "Ubicación"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
