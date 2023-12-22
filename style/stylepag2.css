@@ -31,3 +31,65 @@ body{
     font-size: 18px;
     font-style: italic;
 }
+.texto {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+#detalle-musica {
+    display: flex;
+
+}
+footer{
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+#pie-row .col{
+    text-align: center;
+}
+
+#pie-row .col ul{
+    padding-top: 25px;
+    list-style-type: none;
+} 
+
+#pie-row .col img{
+    padding-top: 20px;
+}
+
+#pie-row .col ul a{
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    color: black;
+    
+}
+
+#pie-row .col ul a:hover{
+    color:#E07D22;
+    font-size: 20px;
+
+}
+
+#pie-row .col ul li{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 5px 0px;
+}
+
+
+#pie img{
+    width: 300px;
+}
+
+#pie-row i{
+    padding-right: 10px;   
+}
