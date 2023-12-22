@@ -41,8 +41,13 @@ body{
 
 #detalle-musica {
     display: flex;
-
 }
+
+#videos-playlist iframe {
+    border-radius: 20px;
+}
+
+
 footer{
     height: 100%;
     background-color: #fff;
