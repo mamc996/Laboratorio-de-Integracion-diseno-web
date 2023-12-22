@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(/imagen/Fonfo.png);
+    background-image: url("../imagen/Fonfo.png");
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -34,7 +34,8 @@ body{
 
 .menu li a:hover{
     color:#E07D22;
-    font-size: 17px;
+    font-size: 18px;
+    font-style: italic;
 }
 
 .col img{
@@ -105,7 +106,7 @@ footer{
 
 #pie-row .col ul a:hover{
     color:#E07D22;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
