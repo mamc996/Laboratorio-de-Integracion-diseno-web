@@ -1,10 +1,13 @@
 
+/* imagen de fondo completo*/
 body{
     background-image: url("../imagen/Fonfo.png");
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
+
+/* header */
 
 #encabezado{
     background-color: rgba(247, 244, 244, 0.74);
@@ -19,6 +22,10 @@ body{
 
 }
 
+#encabezado .menu{
+    width: 680px;
+}
+
 .menu li{
     float: left;
     padding-left: 40px;
@@ -28,18 +35,26 @@ body{
 .menu li a{
     color: black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'JetBrains Mono', monospace;
 }
 
 .menu li a:hover{
     color:#E07D22;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
 }
 
-.col img{
-    padding-left: 50px;
+#col-header1{
+    padding-left: 80px;
+
+}
+
+/* el primero section*/
+
+#section1{
+    width: 100%;
+    height: 1800px;
 }
 
 .texto{
@@ -76,11 +91,31 @@ body{
     padding: 10px;
 }
 
-#carousel img  {
-    width: 100%;
-    height: 400px;
+/*aside-primer_section*/
+
+
+#col-section1, #col-section2{
+    text-align: center;
+    
+
 }
 
+#col-section2 img{
+    width: 100%;
+}
+
+#col-section2 video{
+    width: 40%;   
+}
+
+/* carousel - segundo section*/
+
+#carousel img,video{
+    width: 100%;
+    height: 600px;
+}
+
+/*footer*/
 
 footer{
     background-color: #fff;
@@ -133,3 +168,5 @@ footer{
   
     
 }
+
+
