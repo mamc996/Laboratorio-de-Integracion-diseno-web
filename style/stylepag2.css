@@ -57,15 +57,8 @@ body{
     letter-spacing: 5px;
     font-family: 'JetBrains Mono', monospace;
 }
+/* playlist */
 
-
-#detalle-musica {
-    display: flex;
-}
-
-#videos-playlist iframe {
-    border-radius: 20px;
-}
 
 
 footer{
