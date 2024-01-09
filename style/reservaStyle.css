@@ -1,76 +1,70 @@
-
-/* imagen de fondo completo*/
-body{
+/* imagen de fondo completo */
+body {
     background-image: url("../imagen/Fonfo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
-#encabezado{
+
+#encabezado {
     background-color: rgba(247, 244, 244, 0.74);
     border-radius: 80px;
     margin-top: 20px;
 }
-.menu{
+
+.menu {
     list-style-type: none;
     float: right;
     padding-top: 12px;
-
 }
 
-.menu li{
+.menu li {
     float: left;
     padding-left: 40px;
     margin: auto 20px;
 }
 
-.menu li a{
+.menu li a {
     color: black;
     text-decoration: none;
     font-size: 15px;
     font-family: 'JetBrains Mono', monospace;
 }
 
-.menu li a:hover{
-    color:#E07D22;
+.menu li a:hover {
+    color: #E07D22;
     font-size: 18px;
     font-style: italic;
 }
 
-.col img{
+.col img {
     padding-left: 50px;
 }
 
-.texto{
+.texto {
     text-align: center;
     color: #fff;
     letter-spacing: 5px;
     font-family: 'JetBrains Mono', monospace;
 }
 
-
-#reserva {
-    color: rgb(198, 88, 4);
-    font-style: normal;
-    padding-left: 40%;
-}
-
-/* formulario */
-
-#reserva {
+/* formulario y mapa */
+#reserva,
+#mapa {
     max-width: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: rgba(214, 154, 42, 0.74);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ebe1e1;
+    background-color: rgba(214, 154, 42, 0.74);
 }
 
-#reserva h2 {
+#reserva h2,
+#reserva h5 {
     text-align: center;
-    color: #ebe1e1;
 }
 
 #reserva ul {
@@ -80,11 +74,6 @@ body{
 
 #reserva li {
     margin-bottom: 15px;
-}
-
-#reserva h5 {
-    margin-bottom: 5px;
-    color: #ebe1e1;
 }
 
 #reserva input {
@@ -110,54 +99,81 @@ body{
     background-color: #0056b3;
 }
 
+#mapa {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
-
-footer{
+footer {
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     margin-top: auto;
 }
 
-#pie-row .col{
+#pie-row .col {
     text-align: center;
 }
 
-#pie-row .col ul{
+#pie-row .col ul {
     padding-top: 25px;
     list-style-type: none;
-} 
+}
 
-#pie-row .col img{
+#pie-row .col img {
     padding-top: 20px;
 }
 
-#pie-row .col ul a{
+#pie-row .col ul a {
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     font-size: 20px;
     color: black;
-    
 }
 
-#pie-row .col ul a:hover{
-    color:#E07D22;
+#pie-row .col ul a:hover {
+    color: #E07D22;
     font-size: 20px;
-
 }
 
-#pie-row .col ul li{
+#pie-row .col ul li {
     margin-top: 10px;
     font-size: 20px;
     font-family: 'JetBrains Mono', monospace;
     padding: 5px 0px;
 }
 
-
-#pie img{
+#pie img {
     width: 300px;
 }
 
-#pie-row i{
+#pie-row i {
     padding-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    margin-right: 15px; 
+}
+
+#reserva, #mapa {
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ebe1e1;
+    background-color: rgba(214, 154, 42, 0.74);
+}
+
+#mapa {
+    height: 400px;
+    width: 100%;
 }
