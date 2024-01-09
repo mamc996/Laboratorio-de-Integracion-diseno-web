@@ -56,8 +56,59 @@ body{
     padding-left: 40%;
 }
 
+/* formulario */
 
+#reserva {
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(214, 154, 42, 0.74);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+#reserva h2 {
+    text-align: center;
+    color: #ebe1e1;
+}
+
+#reserva ul {
+    list-style: none;
+    padding: 0;
+}
+
+#reserva li {
+    margin-bottom: 15px;
+}
+
+#reserva h5 {
+    margin-bottom: 5px;
+    color: #ebe1e1;
+}
+
+#reserva input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reserva button {
+    background-color: #07050198;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+
+#reserva button:hover {
+    background-color: #0056b3;
+}
 
 
 
