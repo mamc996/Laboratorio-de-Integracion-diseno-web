@@ -51,7 +51,7 @@ body {
 
 /* formulario y mapa */
 #reserva,
-#mapa {
+#map {
     max-width: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -60,6 +60,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #ebe1e1;
     background-color: rgba(214, 154, 42, 0.74);
+    margin-bottom: 20px;
 }
 
 #reserva h2,
@@ -99,7 +100,7 @@ body {
     background-color: #0056b3;
 }
 
-#mapa {
+#map {
     height: 400px;
     width: 100%;
     margin-bottom: 20px;
@@ -162,7 +163,7 @@ footer {
     margin-right: 15px; 
 }
 
-#reserva, #mapa {
+#reserva, #map {
     max-width: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -173,7 +174,3 @@ footer {
     background-color: rgba(214, 154, 42, 0.74);
 }
 
-#mapa {
-    height: 400px;
-    width: 100%;
-}
