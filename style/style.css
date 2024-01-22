@@ -51,6 +51,39 @@ body{
 
 }
 
+@media (max-width: 1199px){
+    
+    #col-header2 {
+        display:grid;
+    }
+
+    #encabezado{
+        background-color: rgba(247, 244, 244, 0.74);
+        border-radius: 80px;
+        margin-top: 20px;
+    }
+    
+
+    .menu{
+        list-style-type: none;
+        padding-top: 12px;
+    
+    }
+
+    .menu li{
+        float: none;
+        padding-left: 0px;
+        padding: 10px 0px 10px 0px ;
+        margin: auto 20px;
+        
+    }
+
+    #imagen-footer{
+        text-align: center;
+    }
+
+}
+
 /* el primero section*/
 
 #section1{
@@ -124,20 +157,20 @@ footer{
     margin-top: auto;
 }
 
-#pie-row .col{
+#pie-row .col-xl{
     text-align: center;
 }
 
-#pie-row .col ul{
+#pie-row .col-xl ul{
     padding-top: 25px;
     list-style-type: none;
 } 
 
-#pie-row .col img{
+#pie-row .col-xl img{
     padding-top: 20px;
 }
 
-#pie-row .col ul a{
+#pie-row .col-xl ul a{
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     font-size: 20px;
@@ -145,13 +178,13 @@ footer{
     
 }
 
-#pie-row .col ul a:hover{
+#pie-row .col-xl ul a:hover{
     color:#E07D22;
     font-size: 20px;
 
 }
 
-#pie-row .col ul li{
+#pie-row .col-xl ul li{
     margin-top: 10px;
     font-size: 20px;
     font-family: 'JetBrains Mono', monospace;
@@ -168,5 +201,3 @@ footer{
   
     
 }
-
-
