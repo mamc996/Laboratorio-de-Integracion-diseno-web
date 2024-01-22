@@ -52,6 +52,12 @@ body{
 }
 
 @media (max-width: 1199px){
+
+    header {
+
+        margin-bottom: 20px;
+
+    }
     
     #col-header2 {
         display:grid;
@@ -198,6 +204,4 @@ footer{
 
 #pie-row i{
     padding-right: 10px;
-  
-    
 }
