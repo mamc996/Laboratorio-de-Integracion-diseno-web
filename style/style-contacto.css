@@ -67,12 +67,8 @@ body{
 }
 
 
-
 /*video-presentacion*/
 
-#video{
-    margin-bottom: 100px;
-}
 
 section video{
     width: 100%;
@@ -83,7 +79,7 @@ section video{
 
 
 #list ul{
-    padding: 3%em 0;
+    padding: 3% 0;
 }
 
 #list a{
