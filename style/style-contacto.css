@@ -145,6 +145,20 @@ body{
     #list a i:hover {
         color: black;
     }
+
+    /*video */
+
+    section #video {
+        text-align: center;
+    }
+
+    section #video video {
+        width: 24em;
+        height: 40em;
+        margin-bottom: 100px;
+    }
+    
+    
     
 }
 
