@@ -66,6 +66,66 @@ body{
     
 }
 
+@media (max-width: 1199px){
+
+    header {
+
+        margin-bottom: 20px;
+
+    }
+    
+    #col-header2 {
+        display:grid;
+    }
+
+    #encabezado{
+        background-color: rgba(247, 244, 244, 0.74);
+        border-radius: 80px;
+        margin-top: 20px;
+    }
+    
+
+    .menu{
+        list-style-type: none;
+        padding-top: 12px;
+    
+    }
+
+    .menu li{
+        float: none;
+        padding-left: 0px;
+        padding: 10px 0px 10px 0px ;
+        margin: auto 20px;
+        
+    }
+
+    #imagen-footer{
+        text-align: center;
+    }
+
+    /*section*/
+
+    #row-one p{
+        font-size: xx-large;
+    }
+
+    #list ul li a{
+        font-size: 18px;
+    
+    }
+
+    #list ul li {
+        height: 50px;
+        justify-content: center;
+        
+    }
+
+    #list ul{
+        align-items: center center;
+    }
+
+}
+
 
 /*video-presentacion*/
 
