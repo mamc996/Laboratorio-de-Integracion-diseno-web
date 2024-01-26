@@ -88,6 +88,30 @@ body{
         text-align: center;
     }
 
+    /*aside-primer_section*/
+
+
+    #col-section1, #col-section2 {
+        text-align: center;
+        
+    }
+
+    #col-section2 img {
+        width: 100%;
+    }
+
+    #col-section2 video{
+        width: 40%;   
+    }
+
+    /* carousel - segundo section*/
+
+    #carousel-section #carousel img,video{
+        width: 100%;
+        height: 500px;
+    }
+
+
 }
 
 /* el primero section*/
@@ -133,13 +157,12 @@ body{
 /*aside-primer_section*/
 
 
-#col-section1, #col-section2{
+#col-section1, #col-section2 {
     text-align: center;
     
-
 }
 
-#col-section2 img{
+#col-section2 img {
     width: 100%;
 }
 
